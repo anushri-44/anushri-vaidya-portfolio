@@ -1,16 +1,93 @@
-# my_portfolio
+# Anushri Vaidya — Developer Portfolio
 
-A new Flutter project.
+A full-stack developer portfolio built with Flutter Web, FastAPI, and MongoDB.
+The portfolio includes a public-facing website and an authenticated admin CMS
+for managing portfolio content dynamically.
 
-## Getting Started
+## 🌐 Live Demo
 
-This project is a starting point for a Flutter application.
+[View Live Portfolio](https://anushri-vaidya-portfolio-frontend.onrender.com)
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Public Portfolio
+- Responsive Flutter Web interface
+- About Me section
+- Technical skills
+- Education
+- Experience
+- Projects
+- Achievements
+- Contact section
+- Responsive desktop and mobile layouts
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Admin CMS
+- Secure admin login
+- Dashboard
+- Manage skills
+- Manage education
+- Manage experience
+- Manage projects
+- Manage achievements
+- View contact messages
+- CRUD-based content management
+
+### Backend
+- RESTful API using FastAPI
+- MongoDB database
+- CORS configuration
+- Environment-based configuration
+- Dynamic portfolio data
+
+## 🏗️ Architecture
+
+Flutter Web
+↓
+FastAPI REST API
+↓
+MongoDB Atlas
+
+## 🛠️ Tech Stack
+
+### Frontend
+- Flutter
+- Dart
+- Material UI
+
+### Backend
+- Python
+- FastAPI
+- Uvicorn
+- REST APIs
+
+### Database
+- MongoDB Atlas
+
+### Tools & Deployment
+- Git
+- GitHub
+- Render
+- Postman
+
+## 📁 Project Structure
+
+```text
+my_portfolio/
+├── lib/
+│   ├── models/
+│   ├── screens/
+│   ├── services/
+│   ├── widgets/
+│   └── main.dart
+│
+├── portfolio_backend/
+│   └── app/
+│       ├── main.py
+│       ├── models/
+│       ├── routes/
+│       └── services/
+│
+├── web/
+├── pubspec.yaml
+├── .gitignore
+└── README.md
